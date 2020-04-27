@@ -1,5 +1,13 @@
 #!/usr/bin/env python
 # coding: utf-8
+"""
+Created on Mon Apr 27 16:15:25 2020
+
+@author: Sara Ben Shabbat
+week1-assinment.py - 'Applied Machine Learning' - University of Michigan online course.
+the no.1 week assignment.
+"""
+
 import numpy as np
 import pandas as pd
 from sklearn.datasets import load_breast_cancer
@@ -94,4 +102,7 @@ def answer_eight():
     score = knn.score(X_test, y_test)
     
     return score
+
+
+
 
